@@ -4,7 +4,7 @@ let fileName = "./frames/sketch";
 let maxFrames = 20;
 let gl, shaderProgram;
 
-let num = 20;
+let num = 200;
 let vertices;
 let x;
 let y;
@@ -31,7 +31,7 @@ zoom = 1;
 // 3.569946
 let framesToPrints = 0;
 // let decrementAcceleration = 0.000001;
-let decrement = 0.000001;
+let decrement = 0.00001;
 // decrement *= 0.1;
 let increment = 0.1 + (decrement * 200);
 

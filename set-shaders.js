@@ -13,7 +13,7 @@ function setShaders() {
         center = vec2(gl_Position.x, gl_Position.y);
         center = 512.0 + center * 512.0;
         myposition = vec2(gl_Position.x, gl_Position.y);
-        gl_PointSize = 5.5;
+        gl_PointSize = 1.5;
     }`;
 
     // Create a vertex shader object
